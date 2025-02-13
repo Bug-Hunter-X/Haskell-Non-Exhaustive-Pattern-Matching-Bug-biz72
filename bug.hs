@@ -1,0 +1,1 @@
+This code suffers from a common issue in Haskell: it doesn't handle non-exhaustive pattern matching in the `case` statement. If the value of `x` is something other than 1 or 2, the function will throw a runtime exception.
